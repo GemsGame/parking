@@ -1,0 +1,21 @@
+.neu-select {
+    background:
+    linear-gradient(351.91deg, #2F353A 14.75%, #1C1F22 84.81%),
+    linear-gradient(351.91deg, #2F353A 14.75%, #1C1F22 84.81%),
+    linear-gradient(350.68deg, #2C3036 14.05%, #31343C 85.29%),
+    linear-gradient(350.94deg, #2C3036 14.05%, #31343C 85.29%);
+    
+    border:2px solid rgb(60, 63, 71);
+    box-shadow: -4px -4px 10px rgba(72, 78, 83, 0.6), 4px 4px 10px rgba(31, 36, 39, 0.8);
+    border-radius: 20px;
+    cursor: pointer;
+    outline:none;
+    color: #7f8489;
+    padding:0.5rem 1rem;
+    width: 100%;
+}
+
+
+.select-wrapper {
+    padding:0.5rem;
+}

@@ -1,0 +1,14 @@
+.header {
+    font-weight: bold;
+}
+ .header-box {
+     background-color: rgba(0, 0, 0, 0.8);
+     color:white;
+     box-shadow:3px 3px 16px rgba(8, 8, 8, 0.2);
+     border-radius: 4px;
+     margin-top: 15px;
+ }
+
+ .header-box:hover{
+    color:white;
+ }

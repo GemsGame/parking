@@ -1,0 +1,39 @@
+.new-car {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.new-car__box {
+    width: 40%;
+    background: linear-gradient(0.08deg, #2E3138 0.35%, #3D4148 192.77%);
+    box-shadow: 3.88889px 3.88889px 16.6667px #1F2427;
+    border-radius: 24px 24px 30px 30px;
+    min-width: 300px;
+
+}
+.new-car__content {
+    padding:1rem;
+    padding-top: 0;
+}
+
+.new-car__close-button {
+    display: flex;
+    justify-content: flex-end;
+    padding:0.8rem;
+    cursor: pointer;
+}
+
+.new-car__select-buttons {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+
+.new-car__send-button {
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top:1rem;
+}

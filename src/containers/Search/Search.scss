@@ -1,0 +1,31 @@
+.search-row {
+    padding:1rem;
+  
+}
+
+.search {
+    background: linear-gradient(0.08deg, #2E3138 0.35%, #3D4148 192.77%);
+    box-shadow: 3.88889px 3.88889px 16.6667px #1F2427;
+    border-radius: 24px 24px 30px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap-reverse;
+    
+}
+.search__sort-header {
+    font-size: 1.5rem;
+
+}
+
+.add-car {
+    justify-self: center;
+    display: flex;
+    flex-flow: wrap-reverse;
+}
+.search__sort-inputs {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: wrap;
+}
