@@ -30,7 +30,7 @@ const Item = props => {
                 <div className="item-car__number">
 
                     <Button variant="micro-neu" onClick={() => toParking(id, update)}><i className="fas fa-car"></i></Button>
-                    <Button variant="micro-neu" onClick={() => leaveParking(id, update)}><i className="fas fa-car-side"></i></Button>
+                    <Button variant="micro-neu" onClick={() => leaveParking(id, update)} style={{padding: '0.3rem 0.5rem'}}><i className="fas fa-car-side"></i></Button>
                 </div>
             </div>
         </div>
