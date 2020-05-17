@@ -13,10 +13,6 @@ const ItemList = ({ getAllCars: getCars, onParking: getCarsOnParking, cars, toPa
         getCars();
         getCarsOnParking();
     }, []);
-    
-  
-
-  
     return (
         <>
        
@@ -58,7 +54,7 @@ const mapStateToProps = state => ({
                 };
             });
             if (result.length > 0) {
-                if (result[0][state.carValues].name) {
+                if (result[0][state.carValues]) {
                     return result[0][state.carValues].name.includes(state.filter);
                 } else return result[0];
             }
