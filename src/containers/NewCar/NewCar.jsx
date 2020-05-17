@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import { connect } from 'react-redux';
-import PropTypes from 'prop-types';
 import './NewCar.scss';
 import Input from '../../components/Input';
 import { Button } from 'react-bootstrap';
@@ -8,7 +7,6 @@ import { addCar } from '../../actions/cars';
 import { getBrands } from '../../actions/brands';
 import { getModels } from '../../actions/models';
 import { getTenants } from '../../actions/tenants';
-
 import Select from '../../components/Select';
 
 const NewCar = props => {
@@ -59,12 +57,6 @@ const NewCar = props => {
         </div>
     )
 }
-
-NewCar.propTypes = {
-
-}
-
-
 const mapStateToProps = state => ({
     brands: state.brands,
     models: state.models,

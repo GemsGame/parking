@@ -1,10 +1,9 @@
 import React from 'react'
 import { Container, Row, Col } from 'react-bootstrap';
 import './Main.scss';
-import Item from '../../components/Item';
 import ItemList from '../../components/ItemList';
 
-const Main = props => {
+const Main = () => {
     return (
         <Container fluid>
             <Row className="table-row">

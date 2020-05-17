@@ -1,5 +1,4 @@
-import React, { useState } from 'react'
-import PropTypes from 'prop-types';
+import React from 'react'
 import { Container, Row, Col, Button } from 'react-bootstrap';
 import { connect } from 'react-redux';
 import './Search.scss';
@@ -38,9 +37,6 @@ const { isOpen, open, close} = useModal();
     )
 }
 
-Search.propTypes = {
-
-}
 const mapStateToProps = state => ({
     parkingValues: state.parkingValues,
 })
